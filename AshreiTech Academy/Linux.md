@@ -18,3 +18,9 @@ Delete folder
 ```
 rm <foldername> -rf
 ```
+
+
+Who is
+```
+whois <Victum IP> | grep "Organization name, Net name"
+```

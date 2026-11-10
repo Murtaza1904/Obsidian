@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/nessus.md",
+                "file": "Theory/OSINT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nessus"
+              "title": "OSINT"
             }
           }
         ]
@@ -187,10 +187,15 @@
   },
   "active": "f666ca67f6f1b5ba",
   "lastOpenFiles": [
+    "Tools/nmap.md",
+    "Theory/OSINT.md",
+    "Linux.md",
+    "Theory/Testing Types.md",
+    "Theory",
     "Web/Burp Suit.md",
     "Web/Http Status Code.md",
+    "Tools/nessus.md",
     "Web/Validation.md",
-    "Linux.md",
     "Web/Http Header.md",
     "Services/HTTP.md",
     "Web/Http Method.md",
@@ -208,10 +213,7 @@
     "Tools/nuclei.md",
     "Tools/enum4linux.md",
     "Tools/autorecon.md",
-    "Tools/nmap.md",
     "Tools/nikto.md",
-    "Tools/nessus.md",
-    "Tools/john the ripper.md",
-    "Tools/smbclient.md"
+    "Tools/john the ripper.md"
   ]
 }
