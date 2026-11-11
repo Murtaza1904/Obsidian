@@ -20,7 +20,7 @@ rm <foldername> -rf
 ```
 
 
-Who is
+Whois
 ```
 whois <Victum IP> | grep "Organization name, Net name"
 ```
