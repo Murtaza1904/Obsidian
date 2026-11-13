@@ -179,7 +179,7 @@ Need to find hidden directories of the website.
 Tools of Directory Listing
 - ffuf
 ```
-fuff -u <Domain name>/fuzz -w <brute force file>
+ffuf -u <Domain name>/fuzz -w <brute force file>
 ```
 - gobuster
 ```
@@ -193,3 +193,6 @@ feroxbuster -u <Domain name> -x php
 *Report vulnerability: Enable directory listing*
 
 Whenever found open directory listing, download the files my clicking on the filename.
+Try to upload file using put method if found directory listing.
+
+IF found WAF, ask the client if testing perform with WAF or without WAF as WAF is blocking payloads.

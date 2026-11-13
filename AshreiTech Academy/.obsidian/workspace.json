@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theory/OSINT.md",
+                "file": "Theory/Web Vulnerabilities.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSINT"
+              "title": "Web Vulnerabilities"
             }
           }
         ]
@@ -187,18 +187,20 @@
   },
   "active": "f666ca67f6f1b5ba",
   "lastOpenFiles": [
-    "Web/Http Status Code.md",
     "Theory/OSINT.md",
+    "Theory/Subdomain Enumeration.md",
+    "Theory/Web Vulnerabilities.md",
+    "Web/Burp Suit.md",
+    "Web/Http Status Code.md",
+    "Web/Validation.md",
+    "Web/Http Method.md",
+    "Web/Http Header.md",
     "Tools/nmap.md",
     "Theory/Testing Types.md",
     "Linux.md",
     "Theory",
-    "Web/Burp Suit.md",
     "Tools/nessus.md",
-    "Web/Validation.md",
-    "Web/Http Header.md",
     "Services/HTTP.md",
-    "Web/Http Method.md",
     "Web.md",
     "Web",
     "Services/SSH.md",
@@ -212,8 +214,6 @@
     "Tools/netcat.md",
     "Tools/nuclei.md",
     "Tools/enum4linux.md",
-    "Tools/autorecon.md",
-    "Tools/nikto.md",
-    "Tools/john the ripper.md"
+    "Tools/autorecon.md"
   ]
 }
