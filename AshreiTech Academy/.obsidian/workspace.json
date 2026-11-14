@@ -187,9 +187,9 @@
   },
   "active": "f666ca67f6f1b5ba",
   "lastOpenFiles": [
-    "Theory/OSINT.md",
     "Theory/Subdomain Enumeration.md",
     "Theory/Web Vulnerabilities.md",
+    "Theory/OSINT.md",
     "Web/Burp Suit.md",
     "Web/Http Status Code.md",
     "Web/Validation.md",
