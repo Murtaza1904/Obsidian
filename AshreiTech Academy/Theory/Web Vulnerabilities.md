@@ -51,7 +51,7 @@
 	- Server IP
 - Improper exception handling
 
-Login page testing
+### Login page testing
 - Username enumeration (input fields tells that username is incorrect)
 	- Try both valid and invalid username during username enumeration
 	- Also check it on forgot password page
@@ -59,7 +59,60 @@ Login page testing
 - captcha bypass
 - Missing rate limiting (Do it in last of the testing)
 
-Post Login
+### Post Login
 - Phone number enumeration (On profile update page)
 - Missing http flag
 - Missing secure flag
+
+Check page source in browser to see any reveal information
+
+### Captcha
+To prevent bots
+- Login page
+- Web scrapping
+
+Types of captcha
+- text base captcha
+- image base captcha
+- checkbox captcha
+- invisible captcha
+
+Captcha failure
+- Captcha response not validating on server side
+	- Remove captcha parameter
+	- Change name of captcha parameter
+- Captcha reuse (one time use)
+- Empty captcha value accepted (null value/ zero value)
+- HTTP method change (POST to GET)
+- Expire captcha reuse
+
+*Note: Test rate limiting after captcha bypass* 
+### Rate Limiting
+- Login page (To prevent brute forcing)
+- Register page (To prevent multiple users creation)
+- Forgot password page (To prevent multiple emails sending)
+
+### SQL Injection
+
+*Note: Test SQL injection perform where ever found input fields in the web*
+
+SQL is a language to communicate with database 
+DBMS is a software used for database (MS SQL, MYSQL, Postgres, Oracle)
+	Each DBMS can have different payload injection
+
+Types of SQL Injection
+- Union base SQL injection
+- Error base SQL injection
+- Blind base SQL injection
+	- Time base SQL injection
+	- Boolean base SQL injection (Minor content alteration)
+
+```
+' OR '1' = '1' --
+```
+
+Two parts of the query:
+- Data literal (strings)
+- Query Logic (query)
+
+After SQL injection login bypass, it will login with the very first user return by database
