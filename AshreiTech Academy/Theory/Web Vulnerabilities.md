@@ -91,8 +91,11 @@ Captcha failure
 - Login page (To prevent brute forcing)
 - Register page (To prevent multiple users creation)
 - Forgot password page (To prevent multiple emails sending)
-
+- OTP
+- File upload
 ### SQL Injection
+It is a vulnerability where attacker manipulates queries interacting through the backend 
+It held due to backend weakness as backend inject the user input directly in query
 
 *Note: Test SQL injection perform where ever found input fields in the web*
 
@@ -104,15 +107,58 @@ Types of SQL Injection
 - Union base SQL injection
 - Error base SQL injection
 - Blind base SQL injection
-	- Time base SQL injection
+	- Time base SQL injection (Inject time base delay in query)
 	- Boolean base SQL injection (Minor content alteration)
+
+```
+SELECT *
+FROM users
+WHERE username = 'test'
+AND password = '123'
+```
 
 ```
 ' OR '1' = '1' --
 ```
 
 Two parts of the query:
-- Data literal (strings)
+- Data literal (strings,number)
 - Query Logic (query)
 
 After SQL injection login bypass, it will login with the very first user return by database
+
+SQL injection login Authentication bypass is due to backend code logic issue.
+
+Report: User authentication bypass using SQL injection
+
+#### Union Base SQL Injection:
+When results show on web page like product list page, we need to test the union base SQL injection
+- Add `'` quote to inject
+- Add `' OR 1 = 1`  and `' OR 1 = 2` Boolean injection
+
+When found union base SQL injection, find number of columns exists in table
+- Determine the number of columns of current query
+```
+UNION SELECT NULL --
+```
+
+```
+ ' ORDER BY 20 --
+```
+
+- Determine the datatype of the column
+```
+' UNION SELECT NULL, 'a', NULL, NULL
+```
+
+*Note: Payload is always inject in the string data literal*
+
+Finding Database Version
+MS SQL/ MYSQL
+```
+' UNION SELECT NULL, @@version --
+```
+
+#### Error base SQL injection
+It is a technique if SQL injection vulnerability exists or not.
+It errors shows any info related to SQL query or version or response
