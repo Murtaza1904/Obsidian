@@ -57,3 +57,14 @@
 - Missing secure flag
 
 Check page source in browser to see any reveal information
+
+
+### Forgot password / Reset password
+- username enumeration
+- rate limiting / OTP / Email
+- Account takeover
+
+Session being stored in local storage (Cookies are safe, local storage are not safe)
+Cookie generates CSRF vulnerability
+
+Password Policy Enforcement

