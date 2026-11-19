@@ -14,3 +14,11 @@
 - Content-Type: Specifies the format of the data being sent in the request body. (Example: application/json)
 - Referrer: Indicates the URL of the page that initiated the request. (Previous URL)
 - Referrer-Policy: Referrer header rules (no-referrer, origin, strict-origin-when-cross-origin)
+
+### Security Headers
+- HSTS
+- x-frame-options
+- content security policy
+- x-content-type-options
+- strict-transport-security
+- referrer-policy
