@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Theory/Web Vulnerabilities.md",
+                "file": "Web/Theory/Session.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web Vulnerabilities"
+              "title": "Session"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Theory/Session.md",
+                "file": "Web/Vulnerabilities/IDOR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session"
+              "title": "IDOR"
             }
           }
         ],
@@ -203,20 +203,27 @@
   "active": "f6ba400abb366cb5",
   "lastOpenFiles": [
     "Web/Theory/Web Vulnerabilities.md",
+    "Web/Vulnerabilities/IDOR.md",
+    "Web/Vulnerabilities/OTP.md",
+    "OTP.md",
+    "Web/Vulnerabilities/Rate Limiting.md",
+    "Web/Vulnerabilities/Captcha.md",
+    "Web/Theory/Pages/Forgot Password.md",
+    "Web/Http Status Code.md",
     "Web/Theory/Session.md",
+    "Web/Theory/Vulnerabilities",
+    "Web/Theory/Pages/Login.md",
+    "Web/Theory/Pages",
+    "Web/Theory/Testing Types.md",
+    "Web/Theory/Subdomain Enumeration.md",
     "Web/Theory/OSINT.md",
     "Web/Vulnerabilities/SQL Injection.md",
-    "Web/Vulnerabilities/Rate Limiting.md",
     "Pasted image 20261118130421.png",
-    "Web/Vulnerabilities/Captcha.md",
     "Tools/nmap.md",
     "Web/Http Header.md",
     "Web/Vulnerabilities",
     "Web/Http Method.md",
-    "Web/Theory/Testing Types.md",
-    "Web/Theory/Subdomain Enumeration.md",
     "Web/Burp Suit.md",
-    "Web/Http Status Code.md",
     "Web/Validation.md",
     "Linux.md",
     "Web/Theory",
@@ -226,11 +233,6 @@
     "Web",
     "Services/SSH.md",
     "Services/DNS.md",
-    "Services/NFS.md",
-    "Services/FTP.md",
-    "Services/Telnet.md",
-    "Services/SMB.md",
-    "Services/SNMP.md",
-    "Services/MySQL.md"
+    "Services/NFS.md"
   ]
 }

@@ -13,7 +13,7 @@ To prevent bots
 	- Remove captcha parameter
 	- Change name of captcha parameter
 - Captcha reuse (one time use)
-- Empty captcha value accepted (null value/ zero value)
+- Empty captcha value accepted (null value/ zero value, wrong captcha)
 - HTTP method change (POST to GET)
 - Expire captcha reuse
 

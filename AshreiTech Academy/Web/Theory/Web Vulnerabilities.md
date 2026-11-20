@@ -43,28 +43,17 @@
 	- Server IP
 - Improper exception handling
 
-### Login page testing
-- Username enumeration (input fields tells that username is incorrect)
-	- Try both valid and invalid username during username enumeration
-	- Also check it on forgot password page
-- SQL injection
-- captcha bypass
-- Missing rate limiting (Do it in last of the testing)
 
-### Post Login
-- Phone number enumeration (On profile update page)
-- Missing http flag
-- Missing secure flag
 
 Check page source in browser to see any reveal information
 
-
-### Forgot password / Reset password
-- username enumeration
-- rate limiting / OTP / Email
-- Account takeover
 
 Session being stored in local storage (Cookies are safe, local storage are not safe)
 Cookie generates CSRF vulnerability
 
 Password Policy Enforcement
+
+Broken access control (Authorization bypass)
+- Vertical access control (Higher access level)
+- Horizontal access control (Same access level)
+*Note: Required atleast two account to check broken access control* 

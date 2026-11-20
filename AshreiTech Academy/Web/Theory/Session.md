@@ -41,3 +41,10 @@ Cookie generates CSRF vulnerability
 - Session not invalidating on password change
 	Session is not expiring from all devices after password change
 - Password change without old password
+	Ask for current password when changing password
+	*Note: If not asking for current password, then CSRF vulnerability generates*
+	- Empty current password checking
+	- Check wrong current password
+	- Remove current password parameter from payload
+	- Method change from POST to GET and POST to PUT
+	- Change someone else password (username, IDOR)
