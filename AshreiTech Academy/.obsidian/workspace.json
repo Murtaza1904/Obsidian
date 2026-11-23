@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Vulnerabilities/Captcha.md",
+                "file": "Web/Vulnerabilities/Broken Access Control.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Captcha"
+              "title": "Broken Access Control"
             }
           }
         ]
@@ -188,13 +188,14 @@
   "active": "d3668c0c38f45261",
   "lastOpenFiles": [
     "Web/Vulnerabilities/IDOR.md",
+    "Web/Vulnerabilities/Broken Access Control.md",
+    "Web/Theory/Web Vulnerabilities.md",
+    "Web/Vulnerabilities/Captcha.md",
+    "Web/Vulnerabilities/SQL Injection.md",
     "Web/Vulnerabilities/OTP.md",
     "Web/Vulnerabilities/Rate Limiting.md",
-    "Web/Vulnerabilities/SQL Injection.md",
     "Web/Theory/Session.md",
-    "Web/Theory/Web Vulnerabilities.md",
     "OTP.md",
-    "Web/Vulnerabilities/Captcha.md",
     "Web/Theory/Pages/Forgot Password.md",
     "Web/Http Status Code.md",
     "Web/Theory/Vulnerabilities",
@@ -217,7 +218,6 @@
     "Web.md",
     "Web",
     "Services/SSH.md",
-    "Services/DNS.md",
-    "Services/NFS.md"
+    "Services/DNS.md"
   ]
 }

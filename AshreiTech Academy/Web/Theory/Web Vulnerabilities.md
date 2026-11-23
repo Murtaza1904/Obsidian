@@ -52,8 +52,3 @@ Session being stored in local storage (Cookies are safe, local storage are not s
 Cookie generates CSRF vulnerability
 
 Password Policy Enforcement
-
-Broken access control (Authorization bypass)
-- Vertical access control (Higher access level)
-- Horizontal access control (Same access level)
-*Note: Required atleast two account to check broken access control* 

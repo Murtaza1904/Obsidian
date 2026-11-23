@@ -36,12 +36,12 @@ Report: User authentication bypass using SQL injection
 
 ### Comments
 
-| DBMS           | Syntex      |
-| -------------- | ----------- |
-| **Oracle**     | --          |
-| **Microsoft**  | --, /**/    |
-| **PostgreSQL** | --, /**/    |
-| MySQL          | #, --, /**/ |
+| DBMS           | Syntex                                              |
+| -------------- | --------------------------------------------------- |
+| **Oracle**     | --                                                  |
+| **Microsoft**  | --, /**/                                            |
+| **PostgreSQL** | --, /**/                                            |
+| MySQL          | #, --  [Note the space after the double dash], /**/ |
 ### Union Base SQL Injection:
 When results show on web page like product list page, we need to test the union base SQL injection
 - Add `'` quote to inject
