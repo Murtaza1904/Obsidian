@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Vulnerabilities/Broken Access Control.md",
+                "file": "Web/Vulnerabilities/XSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Broken Access Control"
+              "title": "XSS"
             }
           }
         ]
@@ -187,6 +187,8 @@
   },
   "active": "d3668c0c38f45261",
   "lastOpenFiles": [
+    "Web/Theory/Session.md",
+    "Web/Vulnerabilities/XSS.md",
     "Web/Vulnerabilities/IDOR.md",
     "Web/Vulnerabilities/Broken Access Control.md",
     "Web/Theory/Web Vulnerabilities.md",
@@ -194,7 +196,6 @@
     "Web/Vulnerabilities/SQL Injection.md",
     "Web/Vulnerabilities/OTP.md",
     "Web/Vulnerabilities/Rate Limiting.md",
-    "Web/Theory/Session.md",
     "OTP.md",
     "Web/Theory/Pages/Forgot Password.md",
     "Web/Http Status Code.md",
@@ -217,7 +218,6 @@
     "Services/HTTP.md",
     "Web.md",
     "Web",
-    "Services/SSH.md",
-    "Services/DNS.md"
+    "Services/SSH.md"
   ]
 }

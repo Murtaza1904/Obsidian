@@ -27,7 +27,7 @@ Cookie generates CSRF vulnerability
 	A post-login cookie is a cookie created after the user successfully logs in. It commonly contains a Session ID or an authentication-related token.
 
 *Note: Always decode the session id to find any sensitive information*
-
+*Note: Session ID is more sensitive than login credentials*
 ### Vulnerabilities
 - Predictable session id
 	Any pattern found in the session ids
