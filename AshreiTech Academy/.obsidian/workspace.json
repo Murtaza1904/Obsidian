@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Vulnerabilities/XSS.md",
+                "file": "Web/Vulnerabilities/CSRF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "XSS"
+              "title": "CSRF"
             }
           }
         ]
@@ -187,17 +187,18 @@
   },
   "active": "d3668c0c38f45261",
   "lastOpenFiles": [
-    "Web/Theory/Session.md",
+    "Web/Vulnerabilities/Captcha.md",
+    "Web/Theory/Web Vulnerabilities.md",
+    "Web/Theory/Pages/Forgot Password.md",
+    "Web/Vulnerabilities/CSRF.md",
     "Web/Vulnerabilities/XSS.md",
+    "Web/Vulnerabilities/SQL Injection.md",
+    "Web/Theory/Session.md",
     "Web/Vulnerabilities/IDOR.md",
     "Web/Vulnerabilities/Broken Access Control.md",
-    "Web/Theory/Web Vulnerabilities.md",
-    "Web/Vulnerabilities/Captcha.md",
-    "Web/Vulnerabilities/SQL Injection.md",
     "Web/Vulnerabilities/OTP.md",
     "Web/Vulnerabilities/Rate Limiting.md",
     "OTP.md",
-    "Web/Theory/Pages/Forgot Password.md",
     "Web/Http Status Code.md",
     "Web/Theory/Vulnerabilities",
     "Web/Theory/Pages/Login.md",
@@ -217,7 +218,6 @@
     "Tools/nessus.md",
     "Services/HTTP.md",
     "Web.md",
-    "Web",
-    "Services/SSH.md"
+    "Web"
   ]
 }
