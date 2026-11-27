@@ -34,5 +34,5 @@ It is a web based attack where attackers performs actions on behave of the user 
 
 Not to add referrer header
 ```
-<meta name="referrer" content"never" />
+<meta name="referrer" content="never">
 ```

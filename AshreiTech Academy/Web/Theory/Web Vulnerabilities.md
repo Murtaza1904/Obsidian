@@ -1,39 +1,22 @@
-- Incorrect HTTP method (GET, POST...)
-- Wrong HTTP status code
-- SQL injection
-- Blind XSS (Cross Side Scripting)
-- Session hijacking (JWT: JSON Web Token)
-- Session fixation (The website does not generate a new session ID after login)
-- WAF bypass (Direct server IP access) (Server IP expose)
-- Referrer header expose previous URL
-- Banner grabbing (Web technologies version expose)
-- Directory Listing expose
-- Metadata information disclosure
-- HTTPS is not setup (Request without encryption)
-- Misconfiguration (Default, weak password, plaintext password, config file disclosure)
-- Missing Security Patches
-- Local File Inclusion (LFI) and Remote File Inclusion (RFI) (File upload without proper sanitization)
 
-- sensitive data pass in get method
-- get post confusion
-- server IP expose if WAF is present
-- wrong http status code
-- directory listing expose
-
-### Misconfigurations
-- unencrypted communication (without https)
-- missing HSTS header (SSL not unforced)
-- SSL / TLS (Newer version of SSL, 1.0 and 1.1 obsolete version) version
+1) Sensitive data pass in get method
+2) GET POST confusion
+3) Server IP expose if WAF is present
+4) wrong http status code
+5) Directory listing expose
+6) Unencrypted communication (without https)
+7) Missing HSTS header (SSL not unforced)
+8) SSL / TLS (Newer version of SSL, 1.0 and 1.1 obsolete version) version
 	- SSL scan CLI tool
-- Missing security headers
+9) Missing security headers
 	- securityheaders.com Tool
 	- shcheck CLI tool
-- vulnerable and outdated component (outdated version)
-- vulnerable JavaScript
+10) vulnerable and outdated component (outdated version)
+11) vulnerable JavaScript
 	- retire.js (browser extension)
-- Information disclosure / Banner grabbing (Info reveal)
-- Verbose error message / Improper error handling
-- debug mode enabled (Reveal info)
+12) Information disclosure / Banner grabbing (Info reveal)
+13) Verbose error message / Improper error handling
+14) debug mode enabled (Reveal info)
 	- file paths
 	- DB credentials
 	- source code
@@ -41,7 +24,7 @@
 	- OS version
 	- RCE (Remote code execution)
 	- Server IP
-- Improper exception handling
+15) Improper exception handling
 
 
 

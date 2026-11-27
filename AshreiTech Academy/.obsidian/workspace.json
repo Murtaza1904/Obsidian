@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Vulnerabilities/SSRF.md",
+                "file": "Web/Vulnerabilities/File Upload.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSRF"
+              "title": "File Upload"
             }
           }
         ]
@@ -187,18 +187,19 @@
   },
   "active": "d3668c0c38f45261",
   "lastOpenFiles": [
-    "Web/Vulnerabilities/CSRF.md",
-    "Web/Vulnerabilities/SSRF.md",
-    "Web/Vulnerabilities/XSS.md",
     "Web/Vulnerabilities/OTP.md",
+    "Web/Vulnerabilities/IDOR.md",
+    "Web/Vulnerabilities/File Upload.md",
+    "Web/Vulnerabilities/SSRF.md",
+    "Web/Theory/Web Vulnerabilities.md",
+    "Web/Vulnerabilities/CSRF.md",
+    "Web/Vulnerabilities/XSS.md",
     "Web/Vulnerabilities/Broken Access Control.md",
     "Web/Vulnerabilities/Captcha.md",
-    "Web/Theory/Web Vulnerabilities.md",
-    "Web/Theory/Pages/Forgot Password.md",
-    "Web/Vulnerabilities/SQL Injection.md",
-    "Web/Theory/Session.md",
-    "Web/Vulnerabilities/IDOR.md",
     "Web/Vulnerabilities/Rate Limiting.md",
+    "Web/Vulnerabilities/SQL Injection.md",
+    "Web/Theory/Pages/Forgot Password.md",
+    "Web/Theory/Session.md",
     "OTP.md",
     "Web/Http Status Code.md",
     "Web/Theory/Vulnerabilities",
@@ -217,7 +218,6 @@
     "Linux.md",
     "Web/Theory",
     "Tools/nessus.md",
-    "Services/HTTP.md",
     "Web"
   ]
 }
